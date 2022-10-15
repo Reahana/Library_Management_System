@@ -8,6 +8,7 @@
 </head>
 <body> -->
 <?php include("header.php") ?>
+<div class="template">
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -28,7 +29,7 @@
 	</nav><br>
 	<span><marquee>This is Online Library Management System. Library opens at 8:00 AM and close at 8:00 PM</marquee></span><br><br>
 	<div class="row">
-		<div class="col-md-4" id="side_bar">
+		<div class="col-md-4 " id="side_bar">
 			<h5 style="color:blue">Library Timing</h5>
 			<ul>
 				<li>Opening Timing: 8:00 AM</li>
@@ -45,7 +46,7 @@
 				<li>Peacefull Environment</li>
 			</ul>
 		</div>		
-		<div class="col-md-8" id="main_content">
+		<div class="col-md-8  " id="main_content">
 			<div class="container">
 				<center><h3>User Login Form</h3></center>
 				<form action="" method="post">
@@ -87,6 +88,10 @@
 		</div>
 			
 	</div>
+	<footer class="py-1  bg-dark text-center">			
+        <p class=" text-white">Created By <a  href="#">Amanda Reahana Gomes</a> | &copy; 2022 All rights reserved.</p>
+	</footer>
+</div>
 	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
 	<script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
