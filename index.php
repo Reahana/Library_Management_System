@@ -8,7 +8,7 @@
 </head>
 <body> -->
 <?php include("header.php") ?>
-<div class="template">
+<div class="template bg-light">
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -28,8 +28,8 @@
 		</div>
 	</nav><br>
 	<span><marquee>This is Online Library Management System. Library opens at 8:00 AM and close at 8:00 PM</marquee></span><br><br>
-	<div class="row">
-		<div class="col-md-4 " id="side_bar">
+	<div class="row ">
+		<div class="col-md-4 " id="side_bar" >
 			<h5 style="color:blue">Library Timing</h5>
 			<ul>
 				<li>Opening Timing: 8:00 AM</li>
