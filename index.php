@@ -90,7 +90,7 @@
 			
 	</div>
 	<footer class="py-1  bg-dark text-center">			
-        <p class=" text-white">Created By <a  href="#">Amanda Reahana Gomes</a> | &copy; 2022 All rights reserved.</p>
+        <p class=" text-white">Created By <a  href="https://www.reahanagomes.com">Amanda Reahana Gomes</a> | &copy; 2022 All rights reserved.</p>
 	</footer>
 </div>
 	<script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
