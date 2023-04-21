@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="../style.css">
 </head>
 <body>
+<div class="template bg-light">
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -47,18 +48,18 @@
 		</div>		
 		<div class="col-md-8" id="main_content">
 			<div class="container">
-			<center><h3>Admin Login Form</h3></center>
-			<form action="" method="post">
-				<div class="form-group">
-					<label for="name">Email ID:</label>
-					<input type="text" name="email" class="form-control" required>
-				</div>
-				<div class="form-group">
-					<label for="name">Password:</label>
-					<input type="password" name="password" class="form-control" required>
-				</div> <br>
-				<button type="submit" name="login" class="btn btn-primary">Login</button>
-			</form>
+				<center><h3>Admin Login Form</h3></center>
+				<form action="" method="post">
+					<div class="form-group">
+						<label for="name">Email ID:</label>
+						<input type="text" name="email" class="form-control" required>
+					</div>
+					<div class="form-group">
+						<label for="name">Password:</label>
+						<input type="password" name="password" class="form-control" required>
+					</div> <br>
+					<button type="submit" name="login" class="btn btn-primary">Login</button>
+				</form>
 			</div>
 			<?php
 				session_start();
@@ -83,8 +84,13 @@
 					}
 				}
 			?>
+		</div>
+	
 	</div>
-	</div>
+	<footer class="py-1  bg-dark text-center">			
+        <p class=" text-white">Created By <a  href="#">Amanda Reahana Gomes</a> | &copy; 2023 All rights reserved.</p>
+	</footer>
+</div>		
 	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
 	<script src="../bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
