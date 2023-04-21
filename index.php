@@ -30,7 +30,7 @@
 	<span><marquee>This is Online Library Management System. Library opens at 8:00 AM and close at 8:00 PM</marquee></span><br><br>
 	<div class="row ">
 		<div class="col-md-4 " id="side_bar" style="background-color:lightblue;">
-			<h5 style="color:blue">Library Timing</h5>
+			<h5 class="pt-1" style="color:blue">Library Timing</h5>
 			<ul>
 				<li>Opening Timing: 8:00 AM</li>
 				<li>Closing Timing: 8:00 PM</li>
@@ -89,8 +89,8 @@
 		</div>
 			
 	</div>
-	<footer class="py-1  bg-dark text-center">			
-        <p class=" text-white">Created By <a  href="https://www.reahanagomes.com">Amanda Reahana Gomes</a> | &copy; 2022 All rights reserved.</p>
+	<footer class="foot-mt py-1  bg-dark text-center">			
+        <p class=" text-white">Created By <a  href="#">Amanda Reahana Gomes</a> | &copy; 2023 All rights reserved.</p>
 	</footer>
 </div>
 	<script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
