@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" name="viewport" content="width=device-width,intial-scale=1">
-	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
-	<link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
-    <title>Library Management System</title>
+
+<?php include("header.php") ?>
+<title>Library Management System</title>
 </head>
 <body>
+
+<div class="template bg-light">
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -28,26 +25,26 @@
 	</nav><br>
 	<span><marquee>This is Library Management System. Library opens at 8:00 AM and close at 8:00 PM</marquee></span><br><br>
 	<div class="row">
-		<div class="col-md-4" id="side_bar">
-			<h5 style="color:blue">Library Timing</h5>
-			<ul>
-				<li>Opening Timing: 8:00 AM</li>
-				<li>Closing Timing: 8:00 PM</li>
-				<li class="timing">(Friday off)</li>
-			</ul>
-			<h5 style="color:green">What we provide ?</h5>
-			<ul>
-				<li>Full furniture</li>
-				<li>Free Wi-fi</li>
-				<li>News Papers</li>
-				<li>Discussion Room</li>
-				<li>RO Water</li>
-				<li>Peacefull Environment</li>
-			</ul>
-		</div>		
-		<div class="col-md-8" id="main_content">
+        <div class="col-md-4 mx-4" id="side_bar" style="background-color:lightblue;">
+            <h5 class="pt-3" style="color:blue">Library Timing</h5>
+            <ul class="pl-5">
+                <li>Opening Timing: 8:00 AM</li>
+                <li>Closing Timing: 8:00 PM</li>
+                <li class="timing">(Friday off)</li>
+            </ul>
+            <h5 style="color:green">What we provide ?</h5>
+            <ul>
+                <li>Full furniture</li>
+                <li>Free Wi-fi</li>
+                <li>News Papers</li>
+                <li>Discussion Room</li>
+                <li>RO Water</li>
+                <li>Peacefull Environment</li>
+            </ul>
+        </div>
+        <div class="col-md-7 bg-white pb-3" id="main_content">
 		<div class="container">
-			<center><h3>User Registration Form</h3></center>
+			<h3 class="pt-5 pb-3 text-center">User Registration Form</h3>
 			<form action="register.php" method="post">
 				<div class="form-group">
 					<label for="name">Full Name:</label>
@@ -74,7 +71,4 @@
 			</div>	
 	</div>
 	</div>
-	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
-	<script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<?php include("footer.php") ?>

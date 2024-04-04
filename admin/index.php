@@ -29,9 +29,9 @@
 	</nav><br>
 	<span><marquee>This is Library Management System. Library opens at 8:00 AM and close at 8:00 PM</marquee></span><br><br>
 	<div class="row">
-		<div class="col-md-4" id="side_bar">
-			<h5 style="color:blue">Library Timing</h5>
-			<ul>
+		<div class="col-md-4  mx-4" id="side_bar" style="background-color:lightyellow;">
+			<h5 class="pt-3" style="color:blue">Library Timing</h5>
+			<ul class="pl-5">
 				<li>Opening Timing: 8:00 AM</li>
 				<li>Closing Timing: 8:00 PM</li>
 				<li class="timing">(Friday off)</li>
@@ -46,9 +46,9 @@
 				<li>Peacefull Environment</li>
 			</ul>
 		</div>		
-		<div class="col-md-8" id="main_content">
+		<div class="col-md-7 bg-white " id="main_content">
 			<div class="container">
-				<center><h3>Admin Login Form</h3></center>
+				<h3 class="pt-5 pb-3 text-center">Admin Login Form</h3>
 				<form action="" method="post">
 					<div class="form-group">
 						<label for="name">Email ID:</label>
