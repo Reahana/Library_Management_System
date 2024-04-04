@@ -1,13 +1,9 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" name="viewport" content="width=device-width,intial-scale=1">
-	<link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
+
+<?php include("header.php") ?>
 	<title>Library Management System</title>
 </head>
-<body> -->
-<?php include("header.php") ?>
+<body>
+
 <div class="template bg-light">
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container-fluid">
