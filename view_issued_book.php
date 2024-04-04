@@ -7,16 +7,13 @@
 	$book_no = "";
 	$query = "select book_name,book_author,book_no from issued_books where student_id = $_SESSION[id] and status = 1";
 ?>
-<!DOCTYPE html>
-<html>
-<head>
+
+<?php include("header.php") ?>
 <title>User Dashboard- Book</title>
-	<meta charset="utf-8" name="viewport" content="width=device-width,intial-scale=1">
-	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<div class="template bg-light">
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -38,11 +35,11 @@
 		</div>
 	</nav><br>
 	<span><marquee>This is Library Management System. Library opens at 8:00 AM and close at 8:00 PM</marquee></span><br><br>
-<div class="row">
+<div class="row " style="min-height: 52vh">
 	<div class="col-md-2"></div>
 	<div class="col-md-8">
 		<form>
-			<table class="table table-bordered" width="900px" style="text-align: center">
+			<table class="table table-bordered table-primary table-striped" width="900px" style="text-align: center">
 				<tr>
 					<th>Book Name:</th>
 					<th>Book Author:</th>
@@ -68,7 +65,4 @@
 	</div>
 	<div class="col-md-2"></div>
 </div>
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
-<script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<?php include("footer.php") ?>

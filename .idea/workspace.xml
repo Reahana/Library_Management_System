@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d42f778-b10c-4d3b-be68-f3d811505931" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/edit_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/edit_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/change_password.php" beforeDir="false" afterPath="$PROJECT_DIR$/change_password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/user_dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_issued_book.php" beforeDir="false" afterPath="$PROJECT_DIR$/view_issued_book.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,19 +29,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/edit_profile.php">
+        <entry file="file://$PROJECT_DIR$/view_issued_book.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+            <state relative-caret-position="72">
+              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+              <folding>
+                <element signature="e#1541#1565#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.php">
+        <entry file="file://$PROJECT_DIR$/user_dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state relative-caret-position="237">
+              <caret line="40" column="45" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="45" />
+              <folding>
+                <element signature="e#1743#1767#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,9 +64,11 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/user_dashboard.php" />
         <option value="$PROJECT_DIR$/view_profile.php" />
         <option value="$PROJECT_DIR$/edit_profile.php" />
+        <option value="$PROJECT_DIR$/change_password.php" />
+        <option value="$PROJECT_DIR$/user_dashboard.php" />
+        <option value="$PROJECT_DIR$/view_issued_book.php" />
       </list>
     </option>
   </component>
@@ -118,12 +128,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712235450481</updated>
-      <workItem from="1712235452097" duration="2578000" />
+      <workItem from="1712235452097" duration="3648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2578000" />
+    <option name="totallyTimeSpent" value="3648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -181,17 +191,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user_dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view_profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-277">
@@ -201,6 +200,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/update.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit_profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="66" column="76" selection-start-line="66" selection-start-column="76" selection-end-line="66" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_password.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="45" column="74" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
+          <folding>
+            <element signature="e#1287#1311#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -214,17 +237,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
+    <entry file="file://$PROJECT_DIR$/user_dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        <state relative-caret-position="237">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="45" />
+          <folding>
+            <element signature="e#1743#1767#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/edit_profile.php">
+    <entry file="file://$PROJECT_DIR$/view_issued_book.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+        <state relative-caret-position="72">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <element signature="e#1541#1565#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

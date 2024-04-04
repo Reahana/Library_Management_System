@@ -46,7 +46,7 @@
 				<h5 class="card-header">Issued Books:</h5>
 				<div class="card-body">
 					<p class="card-text">No. of Issued Books: <?php echo get_user_issue_book_count();?> </p>
-					<a href="view_issued_book.php" class="btn btn-danger" target="_blank">View Issued Books</a>
+					<a href="view_issued_book.php" class="btn btn-danger" >View Issued Books</a>
 				</div>
 			</div>
 		
