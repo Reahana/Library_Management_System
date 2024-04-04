@@ -20,6 +20,7 @@
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">My Profile</a>
 					<div class="dropdown-menu">
+                        <a class="dropdown-item" href="user_dashboard.php">Dashboard</a>
 						<a class="dropdown-item" href="view_profile.php">View Profile</a>
 						<a class="dropdown-item" href="edit_profile.php"> Edit Profile</a>
 						<a class="dropdown-item" href="change_password.php">Change Password</a>
