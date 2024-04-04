@@ -29,7 +29,7 @@
 	</nav><br>
 	<span><marquee>This is Online Library Management System. Library opens at 8:00 AM and close at 8:00 PM</marquee></span><br><br>
 	<div class="row ">
-		<div class="col-md-4 " id="side_bar" style="background-color:lightblue;">
+		<div class="col-md-4 mx-4" id="side_bar" style="background-color:floralwhite;">
 			<h5 class="pt-3" style="color:blue">Library Timing</h5>
 			<ul class="pl-5">
 				<li>Opening Timing: 8:00 AM</li>
@@ -46,7 +46,7 @@
 				<li>Peacefull Environment</li>
 			</ul>
 		</div>		
-		<div class="col-md-8 bg-white " id="main_content">
+		<div class="col-md-7 bg-white " id="main_content">
 			<div class="container">
 				<h3 class="pt-5 pb-3 text-center">User Login Form</h3>
 				<form action="" method="post">
@@ -89,10 +89,5 @@
 		</div>
 			
 	</div>
-	<footer class="py-1  bg-dark text-center">			
-        <p class=" text-white">Created By <a  href="#">Amanda Reahana Gomes</a> | &copy; 2023 All rights reserved.</p>
-	</footer>
-</div>
-	<script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<?php include("footer.php") ?>
+
